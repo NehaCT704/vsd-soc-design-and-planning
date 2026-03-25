@@ -82,27 +82,44 @@ Day 4 lab partially completed — STA and CTS steps in progress.
 
 
 ## Tools & Environment
-Tool Purpose OpenLANE RTL-to-GDSII automation flow Yosys RTL synthesis OpenROADFloorplan, Placement, CTS, RoutingMagicLayout editor, DRC, LVSOpenSTAStatic Timing AnalysisngspiceSPICE simulationTritonRouteDetailed routingSky130 PDKSkyWater 130nm open-source PDK
+| Tool | Purpose |
+|---|---|
+| **OpenLANE** | RTL-to-GDSII automation flow |
+| **Yosys** | RTL synthesis |
+| **OpenROAD** | Floorplan, Placement, CTS, Routing |
+| **Magic** | Layout editor, DRC, LVS |
+| **OpenSTA** | Static Timing Analysis |
+| **ngspice** | SPICE simulation |
+| **TritonRoute** | Detailed routing |
+| **Sky130 PDK** | SkyWater 130nm open-source PDK |
 
 ## Key Learnings
 
 -Understood how a chip moves from RTL to a manufacturable GDSII using a fully open-source toolchain
+
 -Got hands-on with synthesis, floorplanning, placement, and custom cell integration for the picorv32a RISC-V core
+
 -Learned to characterise custom standard cells using Magic and ngspice
+
 -Gained practical exposure to STA concepts — setup/hold slack, OCV, CRPR
 
 
 ## Acknowledgements
 
 -Kunal Ghosh — Co-founder, VSD (VLSI System Design)
+
 -Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
+
 -NASSCOM — for facilitating this workshop program
 
 
 ## References
 -[VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
+
 -[OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
+
 -[SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
+
 -[vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
 
 
