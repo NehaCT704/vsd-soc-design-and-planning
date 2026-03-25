@@ -103,11 +103,9 @@ Day 4 lab partially completed — STA and CTS steps in progress.
 
 ## Acknowledgements
 
--Kunal Ghosh — Co-founder, VSD (VLSI System Design)
-
--Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
-
--NASSCOM — for facilitating this workshop program
+- Kunal Ghosh — Co-founder, VSD (VLSI System Design)
+- Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
+- NASSCOM — for facilitating this workshop program
 
 
 ## References
