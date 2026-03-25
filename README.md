@@ -6,7 +6,7 @@ This repository documents my learning, lab outputs, and key takeaways from each 
 
 
 ## Day 1 — Inception of Open-Source EDA, OpenLANE & Sky130 PDK
-Theory
+**Theory**
 
 Understood the difference between a chip package and the actual silicon die
 Learned about core, pads, and how signals travel through wire bonding
@@ -27,7 +27,7 @@ After synthesis, calculated the flop ratio:
 Flop Ratio = D Flip-Flops / Total Cells = 1613 / 15762 ≈ 10.23%
 
 ## Day 2 — Floorplanning and Introduction to Library Cells
-Theory
+**Theory**
 
 Utilisation Factor = Area of Netlist / Total Core Area (typical: 0.5–0.6)
 Aspect Ratio = Height / Width of core
@@ -40,7 +40,7 @@ run_placement
 Viewed the floorplan and placement output in Magic VLSI layout editor.
 
 ## Day 3 — Design and Characterisation of Library Cells using Magic & ngspice
-Theory
+**Theory**
 
 Wrote a SPICE deck for a CMOS inverter and extracted key parameters:
 
@@ -64,7 +64,7 @@ plot y vs time a
 Also identified and fixed a poly.9 DRC rule violation in the Sky130 tech file.
 
 ## Day 4 — Pre-Layout Timing Analysis and Clock Tree Synthesis (Partial)
-Theory
+**Theory**
 
 Learned LEF file requirements — ports must lie on routing track intersections
 Cell width must be an odd multiple of track pitch
