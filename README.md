@@ -95,14 +95,11 @@ Day 4 lab partially completed — STA and CTS steps in progress.
 
 ## Key Learnings
 
--Understood how a chip moves from RTL to a manufacturable GDSII using a fully open-source toolchain
-
--Got hands-on with synthesis, floorplanning, placement, and custom cell integration for the picorv32a RISC-V core
-
--Learned to characterise custom standard cells using Magic and ngspice
-
--Gained practical exposure to STA concepts — setup/hold slack, OCV, CRPR
-
+- Gained hands-on experience with the complete RTL-to-GDSII flow using open-source tools
+- Understood how OpenLANE automates each stage from synthesis to routing
+- Learned to design and characterise a custom inverter cell using Magic and ngspice
+- Got practical exposure to floorplanning, placement, and power grid concepts
+- Understood timing analysis fundamentals
 
 ## Acknowledgements
 
