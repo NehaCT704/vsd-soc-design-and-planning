@@ -1,11 +1,11 @@
-Digital VLSI SoC Design and Planning — RTL to GDSII
+# Digital VLSI SoC Design and Planning — RTL to GDSII
 
 A 2-week hands-on workshop on complete RTL-to-GDSII flow for digital VLSI SoC design,
 organised by VSD (VLSI System Design) in collaboration with NASSCOM.
 This repository documents my learning, lab outputs, and key takeaways from each day.
 
 
-Day 1 — Inception of Open-Source EDA, OpenLANE & Sky130 PDK
+## Day 1 — Inception of Open-Source EDA, OpenLANE & Sky130 PDK
 Theory
 
 Understood the difference between a chip package and the actual silicon die
@@ -26,7 +26,7 @@ run_synthesis
 After synthesis, calculated the flop ratio:
 Flop Ratio = D Flip-Flops / Total Cells = 1613 / 15762 ≈ 10.23%
 
-Day 2 — Floorplanning and Introduction to Library Cells
+## Day 2 — Floorplanning and Introduction to Library Cells
 Theory
 
 Utilisation Factor = Area of Netlist / Total Core Area (typical: 0.5–0.6)
@@ -39,7 +39,7 @@ tclrun_floorplan
 run_placement
 Viewed the floorplan and placement output in Magic VLSI layout editor.
 
-Day 3 — Design and Characterisation of Library Cells using Magic & ngspice
+## Day 3 — Design and Characterisation of Library Cells using Magic & ngspice
 Theory
 
 Wrote a SPICE deck for a CMOS inverter and extracted key parameters:
@@ -63,7 +63,7 @@ bashngspice sky130_inv.spice
 plot y vs time a
 Also identified and fixed a poly.9 DRC rule violation in the Sky130 tech file.
 
-Day 4 — Pre-Layout Timing Analysis and Clock Tree Synthesis (Partial)
+## Day 4 — Pre-Layout Timing Analysis and Clock Tree Synthesis (Partial)
 Theory
 
 Learned LEF file requirements — ports must lie on routing track intersections
@@ -78,13 +78,13 @@ Generated LEF file from the custom inverter layout, copied LEF and lib files to 
 tclset ::env(LIB_SYNTH)   "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
 set ::env(EXTRA_LEFS)  [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
 
-⚠️ Day 4 lab partially completed — STA and CTS steps in progress.
+Day 4 lab partially completed — STA and CTS steps in progress.
 
 
-Tools & Environment
+## Tools & Environment
 ToolPurposeOpenLANERTL-to-GDSII automation flowYosysRTL synthesisOpenROADFloorplan, Placement, CTS, RoutingMagicLayout editor, DRC, LVSOpenSTAStatic Timing AnalysisngspiceSPICE simulationTritonRouteDetailed routingSky130 PDKSkyWater 130nm open-source PDK
 
-Key Learnings
+## Key Learnings
 
 Understood how a chip moves from RTL to a manufacturable GDSII using a fully open-source toolchain
 Got hands-on with synthesis, floorplanning, placement, and custom cell integration for the picorv32a RISC-V core
@@ -92,19 +92,18 @@ Learned to characterise custom standard cells using Magic and ngspice
 Gained practical exposure to STA concepts — setup/hold slack, OCV, CRPR
 
 
-Acknowledgements
+## Acknowledgements
 
 Kunal Ghosh — Co-founder, VSD (VLSI System Design)
 Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
 NASSCOM — for facilitating this workshop program
 
 
-References
-
-VSD SoC Design Workshop
-OpenLANE GitHub
-SkyWater Sky130 PDK
-vsdstdcelldesign
+## References
+[VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
+[OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
+[SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
+[vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
 
 
 Documented by NEHA C T | BMSCE | VLSI & Physical Design Enthusiast
