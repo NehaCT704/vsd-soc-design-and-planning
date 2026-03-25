@@ -14,7 +14,7 @@ Understood the role of Foundry IPs vs Macros in chip design
 Traced the journey from a C program → RISC-V assembly → binary → RTL → GDSII
 Learned why the Sky130 PDK (released by Google + SkyWater in 2020) was a landmark moment for open-source chip design
 
-OpenLANE Flow Overview
+### OpenLANE Flow Overview
 StageTool(s) UsedSynthesisYosys, ABCFloorplan & PDNOpenROADPlacementOpenROADCTSTritonCTSRoutingFastRoute, TritonRouteTiming AnalysisOpenSTADRC & LVSMagic, Netgen
 Lab — Running Synthesis for picorv32a
 bashcd /home/vscode/Desktop/OpenLane
@@ -24,7 +24,7 @@ package require openlane 1.0.2
 prep -design picorv32a
 run_synthesis
 After synthesis, calculated the flop ratio:
-Flop Ratio = D Flip-Flops / Total Cells = 1613 / 15762 ≈ 10.23%
+Flop Ratio = D Flip-Flops / Total Cells = 1613 / 14876 ≈ 10.8%
 
 ## Day 2 — Floorplanning and Introduction to Library Cells
 **Theory**
