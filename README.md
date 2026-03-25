@@ -109,13 +109,10 @@ Day 4 lab partially completed — STA and CTS steps in progress.
 
 
 ## References
--[VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
-
--[OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
-
--[SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
-
--[vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
+- [VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
+- [OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
+- [SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
+- [vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
 
 
 Documented by NEHA C T | BMSCE | VLSI & Physical Design Enthusiast
