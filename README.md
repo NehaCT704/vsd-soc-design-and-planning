@@ -82,28 +82,28 @@ Day 4 lab partially completed — STA and CTS steps in progress.
 
 
 ## Tools & Environment
-ToolPurposeOpenLANERTL-to-GDSII automation flowYosysRTL synthesisOpenROADFloorplan, Placement, CTS, RoutingMagicLayout editor, DRC, LVSOpenSTAStatic Timing AnalysisngspiceSPICE simulationTritonRouteDetailed routingSky130 PDKSkyWater 130nm open-source PDK
+Tool Purpose OpenLANE RTL-to-GDSII automation flow Yosys RTL synthesis OpenROADFloorplan, Placement, CTS, RoutingMagicLayout editor, DRC, LVSOpenSTAStatic Timing AnalysisngspiceSPICE simulationTritonRouteDetailed routingSky130 PDKSkyWater 130nm open-source PDK
 
 ## Key Learnings
 
-Understood how a chip moves from RTL to a manufacturable GDSII using a fully open-source toolchain
-Got hands-on with synthesis, floorplanning, placement, and custom cell integration for the picorv32a RISC-V core
-Learned to characterise custom standard cells using Magic and ngspice
-Gained practical exposure to STA concepts — setup/hold slack, OCV, CRPR
+-Understood how a chip moves from RTL to a manufacturable GDSII using a fully open-source toolchain
+-Got hands-on with synthesis, floorplanning, placement, and custom cell integration for the picorv32a RISC-V core
+-Learned to characterise custom standard cells using Magic and ngspice
+-Gained practical exposure to STA concepts — setup/hold slack, OCV, CRPR
 
 
 ## Acknowledgements
 
-Kunal Ghosh — Co-founder, VSD (VLSI System Design)
-Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
-NASSCOM — for facilitating this workshop program
+-Kunal Ghosh — Co-founder, VSD (VLSI System Design)
+-Nickson Jose — for the vsdstdcelldesign repository used in Day 3 labs
+-NASSCOM — for facilitating this workshop program
 
 
 ## References
-[VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
-[OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
-[SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
-[vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
+-[VSD SoC Design Workshop](https://www.vlsisystemdesign.com/)
+-[OpenLANE GitHub](https://github.com/The-OpenROAD-Project/OpenLane)
+-[SkyWater Sky130 PDK](https://github.com/google/skywater-pdk)
+-[vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
 
 
 Documented by NEHA C T | BMSCE | VLSI & Physical Design Enthusiast
